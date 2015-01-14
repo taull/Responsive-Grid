@@ -1,0 +1,12 @@
+@import 'bourbon/bourbon';
+$gutter: em(0);
+@import 'neat/neat';
+
+.wrapper {
+  @include outer-container;
+}
+
+.item {
+  @include span-columns (4);
+  @include omega(3n);
+}
